@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class SignUpViewController: UIViewController {
     
@@ -40,13 +41,39 @@ class SignUpViewController: UIViewController {
             }
             
             if let user = user {
-                self.setUserName(user: user, name: name)
+                self.setUserName(user: user.user, name: name)
             }
         }
     }
-    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    // MARK -
+    // MARK: -  Set User Name
+    func setUserName(user: User, name: String) {
+        let changeRequest = user.createProfileChangeRequest()
+        changeRequest.displayName = name
+        
+        changeRequest.commitChanges(){ (error) in
+            if let error = error {
+                print(error.localizedDescription)
+                return
+            }
+            
+            AuthenticationManager.sharedInstance.didLogIn(user: user)
+            self.performSegue(withIdentifier: "ShowChatsFromSignUp", sender: nil)
+        }
+    }
+    
+    // MARK -
+    // MARK: -  ShowAlert
+    func showAlert(message: String) {
+        let alertController = UIAlertController(title: "iChat", message: message, preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+        present(alertController, animated: true, completion: nil)
+    }
+
 }
