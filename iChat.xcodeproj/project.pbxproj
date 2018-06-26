@@ -15,6 +15,7 @@
 		54DA72FC1DB6CB2E00AAC9EA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DA72F91DB6CB2E00AAC9EA /* LoginViewController.swift */; };
 		54DA72FD1DB6CB2E00AAC9EA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DA72FA1DB6CB2E00AAC9EA /* SignUpViewController.swift */; };
 		D4B0CD1420E2C1FC007233B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4B0CD1320E2C1FC007233B4 /* GoogleService-Info.plist */; };
+		D4B0CD1620E2C541007233B4 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B0CD1520E2C541007233B4 /* AuthenticationManager.swift */; };
 		FF42506673E7C3FC5970F0F7 /* Pods_iChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B358A2DBCA8B35199B5DB92 /* Pods_iChat.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		590FA56FDE9F63BE5846B79C /* Pods-iChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iChat/Pods-iChat.debug.xcconfig"; sourceTree = "<group>"; };
 		B5F15424077A54069BBE6575 /* Pods-iChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-iChat/Pods-iChat.release.xcconfig"; sourceTree = "<group>"; };
 		D4B0CD1320E2C1FC007233B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D4B0CD1520E2C541007233B4 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				54DA72E61DB6CAEE00AAC9EA /* AppDelegate.swift */,
+				D4B0CD1520E2C541007233B4 /* AuthenticationManager.swift */,
 				54DA72F81DB6CB2E00AAC9EA /* ChatViewController.swift */,
 				54DA72F91DB6CB2E00AAC9EA /* LoginViewController.swift */,
 				54DA72FA1DB6CB2E00AAC9EA /* SignUpViewController.swift */,
@@ -126,7 +129,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = CareerFoundry;
 				TargetAttributes = {
 					54DA72E21DB6CAEE00AAC9EA = {
@@ -222,6 +225,7 @@
 				54DA72FC1DB6CB2E00AAC9EA /* LoginViewController.swift in Sources */,
 				54DA72FB1DB6CB2E00AAC9EA /* ChatViewController.swift in Sources */,
 				54DA72FD1DB6CB2E00AAC9EA /* SignUpViewController.swift in Sources */,
+				D4B0CD1620E2C541007233B4 /* AuthenticationManager.swift in Sources */,
 				54DA72E71DB6CAEE00AAC9EA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +265,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -268,6 +273,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -318,6 +324,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -325,6 +332,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
