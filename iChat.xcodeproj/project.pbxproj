@@ -14,6 +14,7 @@
 		54DA72FB1DB6CB2E00AAC9EA /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DA72F81DB6CB2E00AAC9EA /* ChatViewController.swift */; };
 		54DA72FC1DB6CB2E00AAC9EA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DA72F91DB6CB2E00AAC9EA /* LoginViewController.swift */; };
 		54DA72FD1DB6CB2E00AAC9EA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DA72FA1DB6CB2E00AAC9EA /* SignUpViewController.swift */; };
+		D4B0CD1420E2C1FC007233B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4B0CD1320E2C1FC007233B4 /* GoogleService-Info.plist */; };
 		FF42506673E7C3FC5970F0F7 /* Pods_iChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B358A2DBCA8B35199B5DB92 /* Pods_iChat.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		54DA72FA1DB6CB2E00AAC9EA /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		590FA56FDE9F63BE5846B79C /* Pods-iChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iChat/Pods-iChat.debug.xcconfig"; sourceTree = "<group>"; };
 		B5F15424077A54069BBE6575 /* Pods-iChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-iChat/Pods-iChat.release.xcconfig"; sourceTree = "<group>"; };
+		D4B0CD1320E2C1FC007233B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				54DA72EA1DB6CAEE00AAC9EA /* Main.storyboard */,
 				54DA72ED1DB6CAEE00AAC9EA /* Assets.xcassets */,
 				54DA72EF1DB6CAEE00AAC9EA /* LaunchScreen.storyboard */,
+				D4B0CD1320E2C1FC007233B4 /* GoogleService-Info.plist */,
 				54DA72F21DB6CAEE00AAC9EA /* Info.plist */,
 			);
 			path = iChat;
@@ -158,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54DA72F11DB6CAEE00AAC9EA /* LaunchScreen.storyboard in Resources */,
+				D4B0CD1420E2C1FC007233B4 /* GoogleService-Info.plist in Resources */,
 				54DA72EE1DB6CAEE00AAC9EA /* Assets.xcassets in Resources */,
 				54DA72EC1DB6CAEE00AAC9EA /* Main.storyboard in Resources */,
 			);
