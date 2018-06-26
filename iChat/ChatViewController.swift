@@ -2,7 +2,7 @@
 //  ChatViewController.swift
 //  iChat
 //
-//  Created by Hesham Abd-Elmegid on 10/18/16.
+//  Created by Mohamed Sobhi Fouda on 6/26/18.
 //  Copyright © 2016 CareerFoundry. All rights reserved.
 //
 
